@@ -653,7 +653,7 @@ a {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 5rem;
+  padding: 2rem 5rem;
 }
 
 /* Navigation Bar */
@@ -785,4 +785,34 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+/* Features */
+
+.block-feature__heading {
+  margin-top: 12rem;
+}
+
+.feature {
+  gap: 4rem 2rem;
+  margin: 12rem 6rem;
+}
+
+.feature:first-of-type {
+  margin-top: 6rem;
+}
+
+.feature__heading {
+  margin: 1rem 0;
+}
+
+.feature__image {
+  width: 100%;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feature:nth-of-type(even) .feature__content {
+    order: 2;
+  }
 }
