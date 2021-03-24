@@ -780,11 +780,15 @@ a {
 @media screen and (min-width: 768px) {
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    grid-template-rows: 1;
+    grid-template-rows: 1fr;
   }
 }
 
 /* Plans Block */
+
+.block-plans {
+  margin-top: 6rem;
+}
 
 .block-plans .grid {
   gap: 8rem 4rem;
