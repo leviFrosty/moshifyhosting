@@ -392,8 +392,9 @@ a {
   width: 40px;
   display: inline-block;
   position: absolute;
-  top: -6%;
+  top: -3.3%;
   right: 5%;
+  z-index: 999;
 }
 
 .plan:hover {
@@ -734,6 +735,10 @@ a {
 
 /* Hero */
 
+.hero {
+  padding-top: 0rem;
+}
+
 .hero__tagline {
   font-size: 2rem;
   color: #b9c3cf;
@@ -791,6 +796,7 @@ a {
 
 .block-plans {
   margin-top: 6rem;
+  overflow: visible;
 }
 
 .block-plans .grid {
