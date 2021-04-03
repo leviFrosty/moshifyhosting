@@ -1,9 +1,9 @@
 ## HTML / CSS Project
 
-Design is responsive
+Design is responsive with mobile nav menu
 
 Design is fast
 
-There's simple SEO best practices in naming and formatting of HTML, but no extra steps were taken.
+Completely custom CSS with little to no framework used.
 
 The primary goal with this was to gain mastery and comfortability troubleshooting CSS issues and design.
